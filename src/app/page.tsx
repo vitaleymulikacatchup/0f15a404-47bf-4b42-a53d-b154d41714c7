@@ -77,21 +77,21 @@ export default function LandingPage() {
               id: "1",
               name: "Handmade Pappardelle",
               price: "$32",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766140582188-yc2eq6jt.jpg",
+              imageSrc: "",
               imageAlt: "Handmade pappardelle pasta with wild boar ragù"
             },
             {
               id: "2",
               name: "Prime Rib Eye Steak",
               price: "$48",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766140582188-yc2eq6jt.jpg",
+              imageSrc: "",
               imageAlt: "Grilled prime rib eye with seasonal vegetables"
             },
             {
               id: "3",
               name: "Pan-Seared Branzino",
               price: "$42",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766140582188-yc2eq6jt.jpg",
+              imageSrc: "",
               imageAlt: "Pan-seared branzino with lemon and herbs"
             },
             {
