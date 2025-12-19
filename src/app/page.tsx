@@ -44,7 +44,7 @@ export default function LandingPage() {
         <HeroOverlayBottomSplit
           title="Culinary Excellence Awaits"
           description="Experience exquisite cuisine crafted with passion and precision. Reserve your table for an unforgettable dining journey at Nyam Dnyam."
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766140578361-gg270zk8.jpg"
+          imageSrc=""
           imageAlt="Elegant restaurant dining room"
           showDimOverlay={true}
           buttons={[
