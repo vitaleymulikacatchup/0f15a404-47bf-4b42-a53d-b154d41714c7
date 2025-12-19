@@ -58,7 +58,7 @@ export default function LandingPage() {
         <MediaSplitAbout
           title="Our Story"
           description="At Nyam Dnyam, we believe exceptional food is more than just flavors on a plate. It's a celebration of tradition, innovation, and passion. Our chef-driven kitchen sources the finest ingredients to create dishes that tell a story. Every meal is crafted with meticulous attention to detail, ensuring every guest experiences culinary artistry."
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766137145255-i5mln4iu.jpg"
+          imageSrc=""
           imageAlt="Chef preparing signature dish"
           imagePosition="right"
           useInvertedBackground="noInvert"
