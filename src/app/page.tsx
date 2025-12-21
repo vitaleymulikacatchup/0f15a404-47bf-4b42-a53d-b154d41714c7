@@ -110,7 +110,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="testimonials" data-section="testimonials">
+      <div id="testimonials" data-section="testimonials" className="relative">
         <TestimonialCardTwelve
           testimonials={[
             {
@@ -138,6 +138,19 @@ export default function LandingPage() {
           cardTag="Highly Rated Experience"
           useInvertedBackground="noInvert"
         />
+        <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 px-6 py-3 bg-[var(--card)] text-[var(--foreground)] rounded-full shadow-2xl border border-[var(--border)] backdrop-blur-md animate-in fade-in zoom-in duration-500 pointer-events-auto">
+          <div className="flex -space-x-2">
+            <img src="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766137145255-i5mln4iu.jpg" alt="Guest 1" className="w-8 h-8 rounded-full border-2 border-[var(--card)]" />
+            <img src="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766137145255-i5mln4iu.jpg" alt="Guest 2" className="w-8 h-8 rounded-full border-2 border-[var(--card)]" />
+            <img src="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766137145255-i5mln4iu.jpg" alt="Guest 3" className="w-8 h-8 rounded-full border-2 border-[var(--card)]" />
+          </div>
+          <span className="text-sm font-medium text-[var(--foreground)]">
+            <span className="font-semibold">Join us</span> - Reserve now
+          </span>
+          <button className="ml-2 px-4 py-1.5 bg-[var(--primary-cta)] text-[var(--card)] rounded-full font-semibold text-xs hover:shadow-lg transition-shadow duration-200">
+            Join Us
+          </button>
+        </div>
       </div>
 
       <div id="contact" data-section="contact" className="relative">
@@ -150,10 +163,6 @@ export default function LandingPage() {
             { text: "Call Us", href: "tel:+1-555-0123" }
           ]}
         />
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 px-5 py-3 bg-[var(--card)] text-[var(--foreground)] rounded-full shadow-2xl border border-[var(--border)] backdrop-blur-md animate-in fade-in zoom-in duration-500 pointer-events-auto">
-          <span className="text-lg font-semibold">🎉</span>
-          <span className="font-semibold text-sm">Join 100+ guests every week</span>
-        </div>
       </div>
 
       <div id="footer" data-section="footer">
