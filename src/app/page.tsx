@@ -140,7 +140,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="contact" data-section="contact">
+      <div id="contact" data-section="contact" className="relative">
         <ContactText
           text="Ready to reserve your table? Contact us today to book your culinary experience."
           animationType="reveal-blur"
@@ -150,6 +150,10 @@ export default function LandingPage() {
             { text: "Call Us", href: "tel:+1-555-0123" }
           ]}
         />
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 px-5 py-3 bg-[var(--card)] text-[var(--foreground)] rounded-full shadow-2xl border border-[var(--border)] backdrop-blur-md animate-in fade-in zoom-in duration-500 pointer-events-auto">
+          <span className="text-lg font-semibold">🎉</span>
+          <span className="font-semibold text-sm">Join 100+ guests every week</span>
+        </div>
       </div>
 
       <div id="footer" data-section="footer">
